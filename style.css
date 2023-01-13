@@ -101,7 +101,10 @@ main {
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 100px;
+    width: 253px;
+    margin: 20px;
+
 }
 
 .course .course-banner img {
@@ -109,11 +112,10 @@ main {
     height: 104px;
 }
 
-.course-info-2 {
+.course-description-two,
+.course-description-one,
+.course-discription-three {
     display: flex;
-    flex-direction: row;
-
-    align-items: center;
     justify-content: space-between;
 }
 
